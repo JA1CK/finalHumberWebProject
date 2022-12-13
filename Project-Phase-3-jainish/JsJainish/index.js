@@ -91,7 +91,7 @@ function ChangeImages(direction) {
   document.getElementById('contentP').style.color = "white";
 
   document.getElementById('home').style =   `
-  background: url(/Project-Phase-3-jainish/imagesJainish/${homeImagesArray[ImageNumber]}) no-repeat;
+  background: url(/finalHumberWebProject/Project-Phase-3-jainish/imagesJainish/${homeImagesArray[ImageNumber]}) no-repeat;
   background-size: cover;
   background-position: center;`;
   
@@ -107,5 +107,5 @@ function showContent(ref,i) {
 }
 
 function showImage(ref,i) {
-  ref.innerHTML = `<img src="/Project-Phase-3-jainish/imagesJainish/barista-${i}.jpg" alt="team-member-${i}"/>`;
+  ref.innerHTML = `<img src="/finalHumberWebProject/Project-Phase-3-jainish/imagesJainish/barista-${i}.jpg" alt="team-member-${i}"/>`;
 }
